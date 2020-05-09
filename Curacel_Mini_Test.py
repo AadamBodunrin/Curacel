@@ -1,7 +1,7 @@
 import urllib3, requests, json, datetime
 
 #Generate token using model API key
-apikey = "LoziHUyUjG3iS7i5HJDSsCA_RrZflRkkr67-ikRNagq_" # Model API key. "Do not share"
+apikey = "LoziHUyUjG3iS7i5HJDSsCA_RrZflRkkr67-ikRNagq_" 
 url     = "https://iam.bluemix.net/oidc/token"
 headers = { "Content-Type" : "application/x-www-form-urlencoded" }
 data    = "apikey=" + apikey + "&grant_type=urn:ibm:params:oauth:grant-type:apikey"
